@@ -1,0 +1,93 @@
+/*
+Theme Name: CM Basic Final
+Author: Maneesh Verma
+Author URI: http://collectivemadness.in
+Description: Starter WordPress theme using Uikit 3 framework with Off-canvas mobile menu.
+Version: 1.0.0
+*/
+/* Imports
+========================================================================== */
+/* Base
+========================================================================== */
+#header { margin-top: 25px; }
+
+.top { z-index: 1; }
+
+#top { width: 100%; }
+
+#main { padding-top: 75px; }
+
+.uk-link, a { color: #000; text-decoration: none; cursor: pointer; }
+
+.uk-link, a:hover { text-decoration: none; color: #666; }
+
+/*.uk-logo:active, .uk-logo:visited{color: #000;}*? /* Nav ========================================================================== */
+.uk-sticky { background-color: transparent; }
+
+.uk-sticky-fixed { background-color: #ccc; }
+
+.uk-navbar-nav { display: flex; margin: 0; padding: 0; list-style: none; }
+
+.uk-navbar-left, .uk-navbar-right, .uk-navbar-center:only-child { flex-wrap: wrap; }
+
+.uk-navbar-nav > li > a, .uk-navbar-item, .uk-navbar-toggle { min-height: 40px; padding: 0px; margin: 0 15px; }
+
+/*Link*/
+.uk-navbar-nav > li > a { color: #666; text-transform: uppercase; font-weight: bold; border-top: solid 2px transparent; }
+
+/*Hover*/
+.uk-navbar-nav > li:hover > a, .uk-navbar-nav > li > a:focus, .uk-navbar-nav > li > a.uk-open { color: #000; outline: none; text-decoration: none; border-top: solid 2px transparent; }
+
+/* OnClick */
+.uk-navbar-nav > li > a:active { color: #000; text-decoration: none; border-top: solid 2px transparent; }
+
+/* Active */
+.uk-navbar-nav > li.uk-active > a { color: #000; text-decoration: none; border-top: solid 2px transparent; }
+
+.uk-navbar-item { color: #666; }
+
+.uk-dropdown { padding: 5px 20px; background: #fff; color: #666; }
+
+/* Header
+========================================================================== */
+.uk-logo { font-size: .875rem; color: #000; text-decoration: none; padding: 0; }
+
+.uk-logo:focus, .uk-logo:hover { color: #666; outline: 0; text-decoration: none; }
+
+/* Toggle & Off Canvas Menu ========================================================================== */
+.uk-navbar-toggle { color: #000; }
+
+.uk-navbar-toggle:hover, .uk-navbar-toggle:focus, .uk-navbar-toggle.uk-open { color: #666; outline: none; text-decoration: none; }
+
+.uk-nav-default { font-size: 1rem; }
+
+/* Items */
+.uk-nav-default > li > a { color: #999; }
+
+/* Hover + Focus */
+.uk-nav-default > li > a:hover, .uk-nav-default > li > a:focus { color: #666; }
+
+/* Active */
+.uk-nav-default > li.uk-active > a { color: #333; }
+
+/* Header */
+.uk-nav-default .uk-nav-header { color: #333; }
+
+/* Divider */
+.uk-nav-default .uk-nav-divider { border-top: 1px solid #e5e5e5; }
+
+/* Sublists */
+.uk-nav-default .uk-nav-sub a { color: #999; }
+
+.uk-nav-default .uk-nav-sub a:hover, .uk-nav-default .uk-nav-sub a:focus { color: #666; }
+
+.uk-nav-default .uk-nav-sub li.uk-active > a { color: #333; }
+
+ul.uk-nav-sub { padding: 5px 0 5px 0px; }
+
+/* Component: Modal ========================================================================== */
+.uk-modal { background: #fff; }
+
+.screen-reader-text { clip: rect(1px, 1px, 1px, 1px); height: 1px; overflow: hidden; position: absolute !important; width: 1px; word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */ }
+
+.screen-reader-text:focus { background-color: #f1f1f1; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6); clip: auto !important; color: #21759b; display: block; font-size: 14px; font-size: 0.875rem; font-weight: 700; height: auto; left: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; /* Above WP toolbar. */ }
